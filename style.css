@@ -1,0 +1,42 @@
+.body {
+    background-color: #1E1E1E;
+    color: #8E44ADff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #8E44ADff;
+    text-decoration: none;
+    align-self: left;
+}
+
+.navbar {
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+}
+
+.navbarList {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbarItems {
+    padding: 0 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #8E44ADff;
+}
+
+.navbarItems a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #8E44ADff;
+}
