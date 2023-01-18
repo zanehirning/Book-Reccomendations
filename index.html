@@ -17,9 +17,47 @@
                 <li class="navbarItems"><a href="#home">Home</a></li>
                 <li class="navbarItems"><a href="#books">Books</a></li>
                 <li class="navbarItems"><a href="#authors">Authors</a></li>
+                <li class="navbarItems"><a href="#search">Search</a></li>
             </ul>
         </nav>
     </div>
+
+    <div class="home" id="home">
+        <div class="home-content">
+            <h1 class="home-header">Welcome to the Book Search!</h1>
+            <p class="home-text">
+                This is a website where you can search for books and authors. Books are published each and every day. Keeping track of these books and finding new books is quite the task.
+                This website is here to help you find the books you are looking for.
+            </p>
+        </div>
+    </div>
+
+    <div class="books" id="books">
+        <div class="books-content">
+            <h2 class="books-header">Personal Recomendations</h2>
+            <div class="books-container">
+                <div class="books-card">
+                    <img src="images/book1.jpg" alt="book1" class="books-image">
+                    <img src="images/book1.jpg" alt="book1" class="books-image">
+                    <img src="images/book1.jpg" alt="book1" class="books-image">
+                    <img src="images/book1.jpg" alt="book1" class="books-image">
+                </div>
+            </div>
+        </div>
+    </div>
+                    
+    </div>
+
+    <div class="search" id="search">
+        <div class="search-bar">
+            <h3 class="search-header">Search for a Book!</h3>
+            <form action="search.php" method="POST" class="search-bar">
+                <input type="text" name="search" placeholder="Search for a book">
+                <button type="submit" name="submit-search" class="search-button">Search</button>
+            </form>
+        </div>
+    </div>
+    
     
 </body>
 </html>
